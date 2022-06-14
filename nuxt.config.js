@@ -12,7 +12,7 @@ export default {
   buildModules: [
     '@nuxt/content',
     '@nuxtjs/pwa',
-    'nuxt-font-loader',
+    // 'nuxt-font-loader',
     // '@nuxtjs/svg-sprite',
     '@nuxtjs/tailwindcss',
     'nuxt-delay-hydration',
@@ -52,7 +52,7 @@ export default {
   fontLoader: { url: '/fonts/fonts.css' },
 
   sitemap: {
-    hostname: 'https://cayan.io',
+    hostname: 'https://cayan.co',
     gzip: true,
     i18n: { defaultLocale: 'ar', locales: ['ar', 'en'], routesNameSeparator: '___' }
   },
