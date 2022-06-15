@@ -2,9 +2,9 @@
 <section class="blog general-pattern bg-primary lg:py-24">
   <div class="container">
     <div class="text-center heading  mb-24">
-      <h4 class=" text-secondary font-bold font-body text-head mb-5">
+      <h1 class=" text-secondary font-bold font-body text-head mb-5">
         مدونة كيان
-      </h4>
+      </h1>
 
       <p class="text-white opacity-60  font-medium font-body text-paragraph">
         زكاة العلم نشره
@@ -19,9 +19,9 @@
           </div>
 
           <div class="content py-3">
-            <h4 class="text-paragraph text-secondary font-body font-bold mb-7">
+            <h2 class="text-paragraph text-secondary font-body font-bold mb-7">
               {{ doc.title }}
-            </h4>
+            </h2>
 
             <p class="text-link text-white font-body font-normal leading-8 mb-7 ">
               {{ doc.description }}

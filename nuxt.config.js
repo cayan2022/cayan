@@ -12,7 +12,7 @@ export default {
   buildModules: [
     '@nuxt/content',
     '@nuxtjs/pwa',
-    // 'nuxt-font-loader',
+    'nuxt-font-loader',
     // '@nuxtjs/svg-sprite',
     '@nuxtjs/tailwindcss',
     'nuxt-delay-hydration',

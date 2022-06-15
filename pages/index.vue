@@ -24,9 +24,9 @@
     <section class="philosophy lg:py-9 md:py-5 sm:py-4 bg-primary">
       <div class="container mx-auto">
         <div class="heading py-5 text-center mb-20">
-          <h4 class="text-head font-bold text-secondary mb-2">
+          <h1 class="text-head font-bold text-secondary mb-2">
             فلسفة كيان
-          </h4>
+          </h1>
 
           <p class="opacity-60 text-white text-paragraph ">
             فلسفة تسعى كيان لتحقيقها بين قاعدة عملائها

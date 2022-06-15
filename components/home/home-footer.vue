@@ -39,9 +39,9 @@
       </div>
 
       <div class="content-data">
-        <h4 class="text-secondary text-footerhead mb-6 font-body font-bold">
+        <h1 class="text-secondary text-footerhead mb-6 font-body font-bold">
           خدماتنا
-        </h4>
+        </h1>
 
         <p class="text-white opacity-60 mb-6 text-links font-body font-normal">
           افضل الخدمات من تصميم وبرمجة
@@ -91,9 +91,9 @@
       </div>
 
       <div class="content-data">
-        <h4 class="text-secondary text-footerhead mb-6  font-body font-bold">
+        <h1 class="text-secondary text-footerhead mb-6  font-body font-bold">
           روابط هامة
-        </h4>
+        </h1>
 
         <p class="text-white opacity-60 mb-6  font-body text-links font-normal">
           مجموعة من الروابط الهامة في كيان

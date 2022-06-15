@@ -2,9 +2,9 @@
 <section class="about-us py-20 bg-primary general-pattern">
   <div class="container">
     <div class="heading w-full text-center py-5">
-      <h4 class="text-secondary font-body font-bold mb-5 text-head">
+      <h1 class="text-secondary font-body font-bold mb-5 text-head">
         عن كيان
-      </h4>
+      </h1>
 
       <p class="text-white opacity-60 font-body font-normal">
         تعرف علينا الآن وازدهر بعملك
@@ -13,9 +13,9 @@
 
     <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6">
       <div class="content flex flex-col justify-center h-100">
-       <h4 class=" text-secondary font-bold font-body text-head mb-5">
+       <h2 class=" text-secondary font-bold font-body text-head mb-5">
          من نحن
-       </h4>
+       </h2>
 
        <p class=" text-links font-body text-white leading-10 text-justify my-5 ">
         كيان .. شركة متخصصة في مجال التسويق الإلكتروني
@@ -47,16 +47,16 @@
       </div>
 
       <div class="content flex flex-col justify-center h-100">
-        <h4 class=" text-secondary font-bold font-body text-head mb-5">
-           قصة الشعار
-         </h4>
+        <h3 class=" text-secondary font-bold font-body text-head mb-5">
+          قصة الشعار
+        </h3>
 
-         <p class="text-links font-body text-white leading-10 text-justify my-5">
-          كيان بالعربية تعني ” الطبيعة - الخلق -تعني الوجود
-          ومن هنا كان اسمنا كشعارنا رمز كيان الشجرة
-          وهي أيضاً رمزية للصمود والقوة اسم وشعار كيان
-          يمثلان رؤية ورسالة الشركة .
-         </p>
+        <p class="text-links font-body text-white leading-10 text-justify my-5">
+        كيان بالعربية تعني ” الطبيعة - الخلق -تعني الوجود
+        ومن هنا كان اسمنا كشعارنا رمز كيان الشجرة
+        وهي أيضاً رمزية للصمود والقوة اسم وشعار كيان
+        يمثلان رؤية ورسالة الشركة .
+        </p>
 
         <button @click="whatsapp()" class="custom-bnt yellow-btn font-body font-bold">
           <img src="/images/back_button.svg" :alt="$t(`app.title`)" />

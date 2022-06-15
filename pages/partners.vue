@@ -2,14 +2,19 @@
   <section class="partners lg:pt-32 md:pt-14 sm:pt-14 pt-14 pb-10 bg-primary  general-pattern">
     <div class="container">
       <div class="heading pb-10 text-center">
-        <h4 class="mb-5 text-secondary text-head font-body font-bold">شركاء النجاح</h4>
-        <p class="text-white opacity-60 text-paragraph font-body font-normal">انتم الشريك الامثل لنا</p>
+        <h1 class="mb-5 text-secondary text-head font-body font-bold">
+          شركاء النجاح
+        </h1>
+
+        <p class="text-white opacity-60 text-paragraph font-body font-normal">
+          انتم الشريك الامثل لنا
+        </p>
       </div>
 
       <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-7 ">
         <div class="box bg-semidark py-3 px-2" v-for="(partner, i) in partners" :key="i">
           <div class="image-content">
-            <img :src="`/img/clients/${partner.img}.webp`" :alt="$t(`app.title`)">
+            <img :src="`/img/clients/${partner.img}.webp`" loading="lazy" :alt="$t(`app.title`)">
           </div>
         </div>
       </div>

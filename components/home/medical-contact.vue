@@ -74,9 +74,9 @@
             </div>
 
             <div class="content text-center mt-4">
-              <h3 class="text-secondary text-footerhead font-body font-bold mb-2">
+              <p class="text-secondary text-footerhead font-body font-bold mb-2">
                 راسلنا عبر البريد
-              </h3>
+              </p>
 
               <a href="mailto:info@cayan.io" class="text-white font-body text-head">
                 info@cayan.io

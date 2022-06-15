@@ -2,9 +2,9 @@
 <section class="blog-details py-24 bg-primary  general-pattern">
   <div class="container">
     <div class="heading text-center mb-24">
-      <h4 class="text-secondary font-bold font-body text-head mb-5">
+      <h1 class="text-secondary font-bold font-body text-head mb-5">
         {{ doc.title }}
-      </h4>
+      </h1>
 
       <ul class="bread-curmb flex justify-center items-center content-center">
         <li class="px-4">

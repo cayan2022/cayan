@@ -1,5 +1,5 @@
 <template>
-<medical-contact class="pt-20" />
+  <medical-contact class="pt-20" />
 </template>
 
 <script>

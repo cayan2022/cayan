@@ -4,9 +4,9 @@
     <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-10">
       <div class="md:col-span-1 h-100">
         <div class="content">
-          <h4 class="text-secondary font-bold text-serviceHead">
+          <h1 class="text-secondary font-bold text-serviceHead">
             {{ $t(`home.intro_title`) }}
-          </h4>
+          </h1>
 
           <p class="text-white text-paragraph leading-8 my-10 text-justify">
             نساعدك في بناء كيانك الرقمي  وحملاتك الإعلانية وصناعة محتواك الرقمي  بإبداع مع حسن التخطيط والإدارة .
