@@ -2,9 +2,9 @@
 <section class="people-say pt-12 pb-20 bg-primary">
   <div class="container mx-auto">
     <div class=" grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-10 ">
-      <div class="say relative flex flex-col justify-center ">
-      <h4 class=" text-secondary font-bold text-head mb-5 sm:text-center ">قالوا عنا</h4>
-      <p class="text-white opacity-60 text-paragraph sm:text-center">ماذا قال عملائنا الكريم عن تجربتهم في كبان</p>
+      <div class="say relative z-20 flex flex-col justify-center">
+        <h4 class=" text-secondary font-bold text-head mb-5">قالوا عنا</h4>
+        <p class="text-white opacity-60 text-paragraph">ماذا قال عملائنا الكريم عن تجربتهم في كبان</p>
       </div>
       <div class="swiper-content">
         <div class="swiper" v-swiper:swiper="options">

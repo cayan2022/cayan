@@ -64,7 +64,7 @@
             <img class="brand-name m-auto w-12" width="48" height="55" loading="lazy" src="/images/logo.svg" :alt="$t(`app.title`)" />
 
             <p class="text-links text-white font-light mt-4 text-center leading-10">
-              مؤسسة تدعم المشاركة في العالم الرقمي والتواجد حيث يتواجد العملاء وتعلو المنافسة بين الشركات والنشاطات التجارية ، تقدم جميع خدمات البرمجة والتصميم والتسويق الالكتروني .
+              كيان شجرة رقمية تظلك الكترونياً وتجعلك تتذوق من حسِّها الابداعي وتمد جذورها لكل من يحتاجها في المجال الرقمي
             </p>
           </div>
 
@@ -78,8 +78,8 @@
                 راسلنا عبر البريد
               </h3>
 
-              <a href="mailto:info@cayan.io" class="text-white font-body text-head">
-                info@cayan.io
+              <a href="mailto:info@cayan.co" class="text-white font-body text-head">
+                info@cayan.co
               </a>
             </div>
           </div>

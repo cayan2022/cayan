@@ -1,5 +1,5 @@
 <template>
-<section class="clients py-10 bg-primary general-pattern ">
+<section class="clients lg:pt-32 md:pt-14 sm:pt-14 pt-14 pb-10 bg-primary general-pattern ">
   <div class="container">
     <div class="heading pb-10 text-center">
       <h4 class="text-secondary text-head font-body font-bold mb-5">

@@ -16,10 +16,10 @@
                     </p>
 
                     <div class="button-content">
-                        <nuxt-link :to="localePath(`medical-contact`)" class="custom-bnt yellow-btn font-body font-bold">
-                        <img src="/images/user.svg" loading="lazy" :alt="$t(`app.title`)" />
-                        <span>تحدث الي خبير</span>
-                        </nuxt-link>
+                        <button @click="whatsapp()" class="custom-bnt yellow-btn font-body font-bold">
+                          <img src="/images/user.svg" loading="lazy" :alt="$t(`app.title`)" />
+                          <span>تحدث الي خبير</span>
+                        </button>
                     </div>
                 </div>
             </div>

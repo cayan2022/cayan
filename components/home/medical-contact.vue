@@ -6,7 +6,7 @@
         <img src="/images/conact_us.svg" width="100%" height="100%" loading="lazy" :alt="$t(`app.title`)">
       </div>
 
-      <div v-if="!done" class="form-content">
+      <!-- <div v-if="!done" class="form-content">
         <h4 class="text-head font-bold text-secondary mb-2">
           تحدث الى خبير
         </h4>
@@ -40,7 +40,7 @@
 <!--            <v-error input="service_code" class="mis-6 mt-2" />-->
 <!--          </div>-->
 
-          <button @click="save" :disabled="isloading" class="custom-bnt yellow-btn font-body font-bold">
+          <!-- <button @click="save" :disabled="isloading" class="custom-bnt yellow-btn font-body font-bold">
             <img src="/images/back_button.svg" loading="lazy" :alt="$t(`app.title`)" />
 
             <span>تحدث إلى خبير</span>
@@ -54,7 +54,7 @@
 
           <img src="/img/done.svg" loading="lazy" class="mt-8 mx-auto" width="100" :alt="$t(`input.done`)" />
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="py-5 bg-semidark px-20 contact-us-links">

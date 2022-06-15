@@ -12,8 +12,8 @@
           <img class="brand-name" src="/images/cayanlogo.svg" width="86" height="100" loading="lazy" :alt="$t(`app.title`)">
 
           <p class=" text-primary lg:w-4/6	md:w-3/6	sm:w-full mx-auto text-paragraph mt-6 leading-10">
-            نحن كيان لكَ في عالم يُقيم أياً كانَ بمكانته الرقمية، وخدماته الإلكترونية، واستراتيجيته التسويقية .. عَزز قُدراتك
-            بِكيان من كل عبقري وفنان
+            خدماتنا الرقمية هي فن نرسم به عالمك الرقمي بحب وإخلاص
+            ازهر أعمالك مع كيان تثري لك مكان وتنحت لك عنوان
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 <template>
-    <section class="products py-14 bg-primary general-pattern">
+    <section class="products lg:pt-32 md:pt-14 sm:pt-14 pt-14 pb-10 bg-primary general-pattern">
         <div class="container">
             <div class="heading text-center mb-10">
                 <h4 class="text-secondary text-head mb-4 font-body font-bold">منتجاتنا</h4>

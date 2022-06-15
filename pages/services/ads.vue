@@ -1,5 +1,5 @@
 <template>
-    <section class="service-data py-24 bg-primary  general-pattern">
+    <section class="service-data lg:pt-32 md:pt-14 sm:pt-14 pt-14 pb-10 bg-primary  general-pattern">
         <div class="container">
             <div class="heading mb-5 text-center pb-14 ">
                 <h4 class=" font-body font-semibold text-head text-white mb-5">تخطيط الإعلانات الرقمية</h4>

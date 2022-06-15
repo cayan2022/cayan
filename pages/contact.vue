@@ -1,5 +1,5 @@
 <template>
-<contact class="pt-20" />
+<contact class="lg:pt-32 md:pt-14 sm:pt-14 pt-14 pb-10" />
 </template>
 
 <script>

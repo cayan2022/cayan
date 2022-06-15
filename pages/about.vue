@@ -31,11 +31,11 @@
         إلى أكبر فئة من الجمهور المستهدف
        </p>
 
-      <nuxt-link :to="localePath(`contact`)" class="custom-bnt yellow-btn font-body font-bold">
-        <img src="/images/back_button.svg" :alt="$t(`app.title`)" />
+      <button @click="whatsapp()" class="custom-bnt yellow-btn font-body font-bold">
+          <img src="/images/back_button.svg" :alt="$t(`app.title`)" />
 
-        <span>تحدث إلى خبير</span>
-      </nuxt-link>
+          <span>تحدث إلى خبير</span>
+        </button>
       </div>
 
       <div class="image-content">
@@ -58,11 +58,11 @@
           يمثلان رؤية ورسالة الشركة .
          </p>
 
-        <nuxt-link :to="localePath(`contact`)" class="custom-bnt yellow-btn font-body font-bold">
+        <button @click="whatsapp()" class="custom-bnt yellow-btn font-body font-bold">
           <img src="/images/back_button.svg" :alt="$t(`app.title`)" />
 
           <span>تحدث إلى خبير</span>
-        </nuxt-link>
+        </button>
         </div>
       </div>
   </div>

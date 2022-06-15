@@ -1,22 +1,23 @@
 <template>
-<header class="bg-primary pt-36 pb-36">
+<header class="bg-primary pt-36 lg:pb-36 md:pb-10 sm:pb-10 pb-10">
   <div class="container mx-auto">
     <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-10">
       <div class="md:col-span-1 h-100">
         <div class="content">
-          <h4 class="text-secondary font-bold text-head">
+          <h4 class="text-secondary font-bold text-serviceHead">
             {{ $t(`home.intro_title`) }}
           </h4>
 
-          <p class="text-white text-paragraph leading-10 my-10">
-          خبراء صناعة المواقع الإلكترونية والإعلانات وتخطيط التسويق الرقمي، ونخبة من الفنانين والمصممين، كل ذلك يندمج في كيان واحد ليٌصبح طرفًا فاعلاً في كيانك التجاري
+          <p class="text-white text-paragraph leading-8 my-10 text-justify">
+            نساعدك في بناء كيانك الرقمي  وحملاتك الإعلانية وصناعة محتواك الرقمي  بإبداع مع حسن التخطيط والإدارة .
+            مع فريق كيان نصنع من كل مبدع فنان
           </p>
 
-          <nuxt-link to="/contact" class="custom-bnt yellow-btn font-body font-bold">
+          <button @click="whatsapp()" class="custom-bnt yellow-btn font-body font-bold">
             <img src="/images/back_button.svg" :alt="$t(`app.title`)" />
 
             <span>تحدث إلى خبير</span>
-          </nuxt-link>
+          </button>
         </div>
       </div>
 

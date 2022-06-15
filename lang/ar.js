@@ -38,7 +38,7 @@ export default (context) => {
 
       home: {
         title: `التسويق الرقمي وحلول التقنية الذكية`,
-        intro_title: 'كيان يناسب العصر'
+        intro_title: 'كيان " لازدهار أعمالك” '
       }
     })
   })

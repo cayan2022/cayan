@@ -23,7 +23,7 @@ export default {
     'nuxt-i18n',
     '@nuxtjs/sitemap',
     '@nuxtjs/toast',
-    // '@nuxtjs/gtm',
+    '@nuxtjs/gtm',
     ['vue-scrollto/nuxt', { duration: 250 }]
   ],
 

@@ -14,8 +14,8 @@ module.exports = {
     },
 
     fontFamily: {
-      display: ['JannaLT', 'sans-serif'],
-      body: ['JannaLT', 'sans-serif'],
+      display: ['RB', 'sans-serif'],
+      body: ['RB', 'sans-serif'],
     },
 
     screens: {

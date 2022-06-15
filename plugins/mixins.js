@@ -8,6 +8,13 @@ const Mix = {
     Vue.component('v-error', vError)
 
     Vue.mixin({
+      data() {
+        return {
+          number: '567275203',
+          mobile: '567275203'
+        }
+      },
+
       computed: {
         ...mapGetters({ isloading: 'isloading', errors: 'errors' }),
 
@@ -41,7 +48,7 @@ const Mix = {
           const whatsapp = new CustomEvent('event:whatsapp')
           document.dispatchEvent(whatsapp)
 
-          window.open(`https://wa.me/${number}`)
+          window.open(`https://wa.me/966${this.number}`)
         },
 
         scrollTo(element, offset = 0) {

@@ -1,6 +1,6 @@
 <template>
 <div>
-  <nav class="py-3 w-full bg-primary">
+  <nav class="py-3 w-full bg-primary" id="nav">
     <div class="container mx-auto">
       <div class="w-full flex justify-between items-center">
         <div class="navToggler" :class="{active: nav}" @click="$store.commit(`home/nav`, !nav)">
@@ -50,52 +50,52 @@
 
         <ul class="navbar-nav flex justify-between items-center" :class="{activeNav: nav}">
           <li class="px-5">
-            <nuxt-link :to="localePath(`/`)" class="text-links text-secondary font-semibold font-body" >
+            <nuxt-link :to="localePath(`/`)" class="nav-link text-links text-secondary font-semibold font-body" >
             الرئيسية
             </nuxt-link>
           </li>
 
           <li class="px-5">
-            <nuxt-link class="text-links text-secondary font-semibold font-body  " :to="localePath(`about`)">
+            <nuxt-link class="nav-link text-links text-secondary font-semibold font-body  " :to="localePath(`about`)">
               عن كيان
             </nuxt-link>
           </li>
 
           <li class="px-5">
-            <nuxt-link :to="localePath(`contact`)" class="text-links text-secondary font-semibold font-body">
+            <nuxt-link :to="localePath(`contact`)" class="nav-link text-links text-secondary font-semibold font-body">
               المنتجات
             </nuxt-link>
           </li>
 
           <li class="px-5">
-            <nuxt-link :to="localePath(`clients`)" class="text-links text-secondary font-semibold font-body">
+            <nuxt-link :to="localePath(`clients`)" class="nav-link text-links text-secondary font-semibold font-body">
               العملاء
             </nuxt-link>
           </li>
 
           <li class="px-5">
-            <nuxt-link to="/blog" class="text-links text-secondary font-semibold font-body" >
+            <nuxt-link to="/blog" class="nav-link text-links text-secondary font-semibold font-body" >
               المدونة
             </nuxt-link>
           </li>
 
           <li class="px-5">
-            <nuxt-link :to="localePath(`contact`)" class="text-links text-secondary font-semibold font-body">
+            <button @click="whatsapp()" class="nav-link text-links text-secondary font-semibold font-body">
               تواصل معنا
-            </nuxt-link>
+            </button>
           </li>
         </ul>
 
         <div class="flex items-center content-center">
-          <!-- <nuxt-link :to="switchLocalePath(locale === `ar` ? `en` : `ar`)" class="lang ml-6 w-14 text-primary text-links font-semibold h-14 rounded-full bg-secondary flex justify-center items-center">
-          {{ locale === `ar` ? `EN` : `AR` }}
+          <!-- <nuxt-link :to="switchLocalePath($i18n.locale === `ar` ? `en` : `ar`)" class="lang ml-6 w-14 text-primary text-links font-semibold h-14 rounded-full bg-secondary flex justify-center items-center">
+            {{ locale === `ar` ? `EN` : `AR` }}
           </nuxt-link> -->
 
-          <nuxt-link :to="localePath(`contact`)" class="custom-bnt main-btn font-body font-bold" >
-            <img src="/images/user.svg" loading="lazy" :alt="$t(`app.title`)" />
+          <button @click="whatsapp()" class="custom-bnt main-btn font-body font-bold" >
+            <img src="/images/whatsapp.svg" loading="lazy" :alt="$t(`app.title`)" />
 
             <span>تواصل معنا</span>
-          </nuxt-link>
+          </button>
         </div>
       </div>
     </div>
@@ -109,9 +109,44 @@ import {mapState} from "vuex";
 export default {
   layout: `home`,
   scrollToTop: true,
-
+   mounted() {
+    this.$nextTick(function(){
+      window.addEventListener("scroll", function(){
+        var navbar = document.getElementById("nav");
+        var nav_classes = navbar.classList;
+        if(document.documentElement.scrollTop >= 150) {
+          if (nav_classes.contains("navscroll") === false) {
+            nav_classes.toggle("navscroll");
+          }
+        }
+        else {
+          if (nav_classes.contains("navscroll") === true) {
+            nav_classes.toggle("navscroll");
+          }
+        }
+      })
+    })
+  },
   computed: {
     ...mapState('home', { nav: state => state.nav })
   }
 }
 </script>
+
+<style lang="scss">
+  nav {
+    transition: all .3s linear;
+
+    .brand-name {
+      transition: all .3s linear;
+    }
+
+    &.navscroll {
+      box-shadow: 0px 0px 10px rgba($color: #FDD301, $alpha: 0.2);
+
+      .brand-name {
+        height: 50px !important;
+      }
+    }
+  }
+</style>

@@ -1,5 +1,5 @@
 <template>
-    <section class="service-data general-pattern py-10 bg-primary">
+    <section class="service-data general-pattern lg:pt-32 md:pt-14 sm:pt-14 pt-14 pb-10 bg-primary">
         <div class="container">
             <div class="heading mb-5 text-center pb-14 ">
                 <h4 class=" font-body font-semibold text-head text-white mb-5">بناء المواقع والتطبيقات</h4>
