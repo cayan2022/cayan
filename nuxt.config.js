@@ -37,7 +37,10 @@ export default {
 
   css: ['@/assets/sass/app.scss', '@/assets/css/swiper.css'],
 
-  gtm: { id: process.env.GTM_ID },
+  gtm: {
+    id: process.env.GTM_ID,
+    scriptDefer: true,
+  },
 
   tailwindcss: { mode: 'jit' },
 

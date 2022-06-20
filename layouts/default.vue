@@ -1,5 +1,5 @@
 <template>
-<div class="h-screen min-h-screen">
+<div>
   <nuxt />
 
   <home-footer />

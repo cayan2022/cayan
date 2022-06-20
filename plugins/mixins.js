@@ -11,7 +11,8 @@ const Mix = {
       data() {
         return {
           number: '567275203',
-          mobile: '567275203'
+          mobile: '567275203',
+          email: 'info@cayan.co'
         }
       },
 
@@ -49,6 +50,13 @@ const Mix = {
           document.dispatchEvent(whatsapp)
 
           window.open(`https://wa.me/966${this.number}`)
+        },
+
+        mailto() {
+          const mailto = new CustomEvent('event:mailto')
+          document.dispatchEvent(mailto)
+
+          window.open(`mailto:${this.email}`)
         },
 
         scrollTo(element, offset = 0) {

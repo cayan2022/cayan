@@ -30,7 +30,7 @@ export default ({ app, $config: { GTM_ID } }) => {
         'gtm.uniqueEventId': 0
       })
     }
-    script.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`
+    script.src = `https://www.googletagmanager.com/gtm.js?id=G-NBYLTWHT3M`
     document.head.appendChild(script)
 
     app.router.afterEach((to, from) => {

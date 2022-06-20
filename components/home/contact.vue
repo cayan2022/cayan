@@ -89,7 +89,7 @@
           </div>
 
           <div class="lg:col-start-4 lg:col-end-5">
-            <a href="mailto:info@cayan.co" target="_blank" class="box flex-col">
+            <button @click="mailto()" target="_blank" class="box flex-col">
               <div class="icon-content">
                 <img src="/images/message.svg" loading="lazy" :alt="$t(`app.title`)">
               </div>
@@ -100,10 +100,10 @@
                 </p>
 
                 <p class="text-white font-body text-links">
-                  info@cayan.co
+                  {{ this.email }}
                 </p>
               </div>
-            </a>
+            </button>
           </div>
         </div>
       </div>

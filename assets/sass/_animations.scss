@@ -14,6 +14,20 @@
     box-shadow: 0 0 0 10px rgba(255,102,0,0), 0 0 0 20px rgba(255,102,0,0);
   }
 }
+@keyframes pulsecust {
+  0% {
+    opacity: .6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: .3;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: .6;
+    transform: scale(1);
+  }
+}
 @keyframes pulse {
     0% {
         transform: scale3d(1, 1, 1);
@@ -147,7 +161,7 @@
     }
 }
 
-//change direction 
+//change direction
 @keyframes translateX {
 
     0%,
@@ -261,7 +275,7 @@
 @keyframes move {
     25% {
       opacity: 1;
-  
+
     }
     33% {
       opacity: 1;
