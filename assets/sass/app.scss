@@ -1150,9 +1150,8 @@ footer{
     position: relative;
     overflow: hidden;
     z-index: 999;
-    padding: 40px 0px;
+    padding: 40px 60px;
     border-radius: 6px;
-    padding-inline-start: 60px;
 
     &::after{
       content: '';

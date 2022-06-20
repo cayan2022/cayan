@@ -57,31 +57,53 @@
       </div> -->
     </div>
 
-    <div class="py-5 bg-semidark px-20 contact-us-links">
-      <div class="container">
-        <div class=" grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-9 ">
-          <div class="data">
-            <img class="brand-name m-auto w-12" width="48" height="55" loading="lazy" src="/images/logo.svg" :alt="$t(`app.title`)" />
+    <div class="py-5 bg-semidark contact-us-links">
+      <div class="container mx-auto">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-9 ">
+          <div class="lg:col-start-1 lg:col-end-3">
+            <div class="data">
+              <img class="brand-name m-auto w-12" width="48" height="55" loading="lazy" src="/images/logo.svg" :alt="$t(`app.title`)" />
 
-            <p class="text-links text-white font-light mt-4 text-center leading-10">
-              كيان شجرة رقمية تظلك الكترونياً وتجعلك تتذوق من حسِّها الابداعي وتمد جذورها لكل من يحتاجها في المجال الرقمي
-            </p>
+              <p class="text-links text-white font-light mt-4 text-center leading-10">
+                كيان شجرة رقمية تظلك الكترونياً وتجعلك تتذوق من حسِّها الابداعي وتمد جذورها لكل من يحتاجها في المجال الرقمي
+              </p>
+            </div>
           </div>
 
-          <div class="box flex-col">
-            <div class="icon-content">
-              <img src="/images/message.svg" loading="lazy" :alt="$t(`app.title`)">
-            </div>
+          <div class="lg:col-start-3 lg:col-end-4">
+            <button @click="whatsapp()" class="box flex w-full flex-col justify-center items-center content-center">
+              <div class="icon-content">
+                <img src="/images/whatsapp_gold.svg" loading="lazy" :alt="$t(`app.title`)">
+              </div>
 
-            <div class="content text-center mt-4">
-              <p class="text-secondary text-footerhead font-body font-bold mb-2">
-                راسلنا عبر البريد
-              </p>
+              <div class="content text-center mt-4">
+                <p class="text-secondary text-footerhead font-body font-bold mb-2">
+                تواصل معنا
+                </p>
 
-              <a href="mailto:info@cayan.co" class="text-white font-body text-head">
-                info@cayan.co
-              </a>
-            </div>
+                <p class="text-white font-body text-links">
+                  0{{ this.number }}
+                </p>
+              </div>
+            </button>
+          </div>
+
+          <div class="lg:col-start-4 lg:col-end-5">
+            <a href="mailto:info@cayan.co" target="_blank" class="box flex-col">
+              <div class="icon-content">
+                <img src="/images/message.svg" loading="lazy" :alt="$t(`app.title`)">
+              </div>
+
+              <div class="content text-center mt-4">
+                <p class="text-secondary text-footerhead font-body font-bold mb-2">
+                  راسلنا عبر البريد
+                </p>
+
+                <p class="text-white font-body text-links">
+                  info@cayan.co
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
