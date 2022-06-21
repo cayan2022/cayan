@@ -170,14 +170,14 @@
     </footer>
 
     <div class="fixed-icons fixed bottom-2 left-3">
-      <button @click="whatsapp()" class="w-12 h-12 flex relative justify-center items-center content-center rounded-full bg-primary mb-3">
+      <button @click="whatsapp()" class="whatsapp-bnt w-12 h-12 flex relative justify-center items-center content-center rounded-full bg-primary mb-3">
         <img
           src="/images/whatsapp_gold.svg"
           class="w-5 h-5 object-center object-contain"
           :alt="$t(`app.title`)" />
       </button>
 
-      <button @click="callus()" class="w-12 h-12 flex relative justify-center items-center content-center rounded-full bg-secondary">
+      <button @click="callus()" class="call-bnt w-12 h-12 flex relative justify-center items-center content-center rounded-full bg-secondary">
         <img
           src="/images/call.svg"
           class="w-5 h-5 object-center object-contain"

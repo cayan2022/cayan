@@ -71,7 +71,7 @@
           </div>
 
           <div class="lg:col-start-3 lg:col-end-4">
-            <button @click="whatsapp()" class="box flex w-full flex-col justify-center items-center content-center">
+            <button @click="whatsapp()" class="whatsapp-bnt box flex w-full flex-col justify-center items-center content-center">
               <div class="icon-content">
                 <img src="/images/whatsapp_gold.svg" loading="lazy" :alt="$t(`app.title`)">
               </div>
@@ -89,7 +89,7 @@
           </div>
 
           <div class="lg:col-start-4 lg:col-end-5">
-            <button @click="mailto()" target="_blank" class="box flex-col">
+            <button @click="mailto()" target="_blank" class="email-bnt box flex-col">
               <div class="icon-content">
                 <img src="/images/message.svg" loading="lazy" :alt="$t(`app.title`)">
               </div>

@@ -13,7 +13,7 @@
             مع فريق كيان نصنع من كل مبدع فنان
           </p>
 
-          <button @click="whatsapp()" class="custom-bnt yellow-btn font-body font-bold">
+          <button @click="whatsapp()" class="whatsapp-bnt custom-bnt yellow-btn font-body font-bold">
             <img src="/images/back_button.svg" :alt="$t(`app.title`)" />
 
             <span>تحدث إلى خبير</span>

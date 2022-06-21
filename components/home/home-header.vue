@@ -87,7 +87,7 @@
         </ul>
 
         <div class="lg:flex md:hidden sm:hidden hidden items-center content-center">
-          <button @click="callus()" class="custom-bnt main-btn font-body font-bold ml-6" >
+          <button @click="callus()" class="call-btn custom-bnt main-btn font-body font-bold ml-6" >
             <img src="/images/call.svg" loading="lazy" :alt="$t(`app.title`)" />
 
             <span>
@@ -95,7 +95,7 @@
             </span>
           </button>
 
-          <button @click="whatsapp()" class="custom-bnt main-btn font-body font-bold" >
+          <button @click="whatsapp()" class="whatsapp-bnt custom-bnt main-btn font-body font-bold" >
             <img src="/images/whatsapp.svg" loading="lazy" :alt="$t(`app.title`)" />
 
             <span>تواصل معنا</span>
