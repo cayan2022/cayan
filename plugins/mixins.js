@@ -38,14 +38,14 @@ const Mix = {
           Cookies.remove(`_source`)
         },
 
-        callus(number) {
+        callus() {
           const call = new CustomEvent('event:call')
           document.dispatchEvent(call)
 
-          window.open(`tel:${number}`)
+          window.open(`tel:+966${this.mobile}`)
         },
 
-        whatsapp(number) {
+        whatsapp() {
           const whatsapp = new CustomEvent('event:whatsapp')
           document.dispatchEvent(whatsapp)
 

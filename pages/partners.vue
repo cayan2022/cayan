@@ -70,6 +70,26 @@ export default {
           img: 'client_18'
         }, {
           img: 'client_19'
+        }, {
+          img: 'client_20'
+        }, {
+          img: 'client_21'
+        }, {
+          img: 'client_22'
+        }, {
+          img: 'client_23'
+        }, {
+          img: 'client_24'
+        }, {
+          img: 'client_25'
+        }, {
+          img: 'client_26'
+        }, {
+          img: 'client_27'
+        }, {
+          img: 'client_28'
+        }, {
+          img: 'client_29'
         }
       ]
     }
